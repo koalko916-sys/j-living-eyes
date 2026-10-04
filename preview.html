@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>J · Preview & Controls</title><link rel="stylesheet" href="style.css">
+<style>
+#controls{position:fixed;right:24px;top:24px;width:240px;max-height:calc(100vh - 80px);overflow:auto;padding:22px;border:1px solid #30303b;border-radius:16px;background:#111119e8;color:#ddd;font:13px system-ui;box-shadow:0 12px 40px #0008}
+h1{font-size:18px;margin:0 0 6px;color:#fff}p{font-size:11px;color:#9494a8;line-height:1.5;margin:0 0 18px}
+label{display:flex;align-items:center;justify-content:space-between;margin:12px 0 4px;gap:12px}input[type=range]{width:100%;accent-color:#9566ff}input[type=checkbox]{accent-color:#9566ff}select,button{background:#23232e;color:#ddd;border:1px solid #404050;border-radius:5px;padding:6px}input[type=color]{width:44px;height:26px;border:0;background:transparent}button{margin-top:14px;cursor:pointer}output{color:#aaa;font-size:11px}
+#hint{position:fixed;bottom:20px;left:24px;font:11px system-ui;color:#666}
+</style><script src="scripts/settings.js"></script></head>
+<body><canvas id="wallpaper"></canvas><aside id="controls"><h1>J / living eyes</h1><p>Усиленное боковое затухание.<br>Двигай курсором. H — скрыть панель.<br>Для Wallpaper Engine используй index.html.</p>
+<div id="fields"></div><button id="pause">Пауза</button> <button id="reset">Сброс</button></aside><div id="hint">PROCEDURAL · NO LOOP</div>
+<script src="scripts/eye-data.js"></script><script src="scripts/motion.js"></script><script src="scripts/renderer.js?v=3-side-fade"></script><script src="scripts/main.js"></script><script src="scripts/preview.js"></script></body></html>

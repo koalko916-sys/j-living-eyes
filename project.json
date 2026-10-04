@@ -1,0 +1,159 @@
+{
+  "title": "J · Living Eyes",
+  "type": "web",
+  "file": "index.html",
+  "preview": "preview.jpg",
+  "description": "Interactive dot-matrix and ASCII eyes: cursor tracking, procedural idle motion, blinking, inertia and pseudo-3D. Offline WebGL wallpaper with configurable eye color.",
+  "contentrating": "Everyone",
+  "tags": [
+    "Abstract"
+  ],
+  "general": {
+    "properties": {
+      "eyecolor": {
+        "order": 0,
+        "text": "Цвет глаз",
+        "type": "color",
+        "value": "0.51 0.29 1"
+      },
+      "style": {
+        "order": 1,
+        "text": "Рисунок",
+        "type": "combo",
+        "value": "dots",
+        "options": [
+          {
+            "label": "Точки",
+            "value": "dots"
+          },
+          {
+            "label": "ASCII",
+            "value": "ascii"
+          }
+        ]
+      },
+      "mousetracking": {
+        "order": 2,
+        "text": "Следить за курсором",
+        "type": "bool",
+        "value": true
+      },
+      "blinking": {
+        "order": 3,
+        "text": "Моргание",
+        "type": "bool",
+        "value": true
+      },
+      "trackingstrength": {
+        "order": 4,
+        "text": "Сила трекинга",
+        "type": "slider",
+        "value": 1,
+        "min": 0,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      },
+      "headmovement": {
+        "order": 5,
+        "text": "Повороты X/Y/Z",
+        "type": "slider",
+        "value": 0.7,
+        "min": 0,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      },
+      "idlemovement": {
+        "order": 6,
+        "text": "Движения в покое",
+        "type": "slider",
+        "value": 0.65,
+        "min": 0,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      },
+      "breathing": {
+        "order": 7,
+        "text": "Дыхание",
+        "type": "slider",
+        "value": 0.45,
+        "min": 0,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      },
+      "glow": {
+        "order": 8,
+        "text": "Свечение",
+        "type": "slider",
+        "value": 0.28,
+        "min": 0,
+        "max": 1,
+        "fraction": true,
+        "precision": 2
+      },
+      "animationspeed": {
+        "order": 9,
+        "text": "Скорость анимации",
+        "type": "slider",
+        "value": 1,
+        "min": 0.1,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      },
+      "density": {
+        "order": 10,
+        "text": "Плотность точек",
+        "type": "slider",
+        "value": 1,
+        "min": 0.35,
+        "max": 1,
+        "fraction": true,
+        "precision": 2
+      },
+      "scale": {
+        "order": 11,
+        "text": "Размер",
+        "type": "slider",
+        "value": 0.72,
+        "min": 0.25,
+        "max": 1.2,
+        "fraction": true,
+        "precision": 2
+      },
+      "positionx": {
+        "order": 12,
+        "text": "Положение X",
+        "type": "slider",
+        "value": 0.5,
+        "min": 0,
+        "max": 1,
+        "fraction": true,
+        "precision": 2
+      },
+      "positiony": {
+        "order": 13,
+        "text": "Положение Y",
+        "type": "slider",
+        "value": 0.5,
+        "min": 0,
+        "max": 1,
+        "fraction": true,
+        "precision": 2
+      },
+      "brightness": {
+        "order": 14,
+        "text": "Яркость",
+        "type": "slider",
+        "value": 1,
+        "min": 0.2,
+        "max": 2,
+        "fraction": true,
+        "precision": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "j-living-eyes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive WebGL dot-matrix and ASCII eyes for Wallpaper Engine",
+  "scripts": {
+    "start": "node tools/serve.cjs",
+    "test": "node tests/verify.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
